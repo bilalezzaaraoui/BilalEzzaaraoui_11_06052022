@@ -1,0 +1,41 @@
+.header {
+  margin: auto;
+  width: 85%;
+  padding: 2rem 0;
+  display: flex;
+
+  .logo {
+    img {
+      width: 85%;
+    }
+  }
+
+  .nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+    ul {
+      list-style: none;
+      display: flex;
+      padding-top: 1rem;
+
+      li {
+        padding: 0 0 0 2rem;
+
+        a {
+          text-decoration: none;
+          font-family: "Montserrat", sans-serif;
+          color: #ff6060;
+          font-size: 1.5rem;
+
+          &:active,
+          &:hover,
+          &.active {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

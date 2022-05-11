@@ -1,0 +1,32 @@
+.collapse-layout {
+  margin-bottom: 1.5rem;
+  .collapse {
+    background-color: #ff6060;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-radius: 5px;
+
+    p {
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+    }
+
+    .icon-collapse {
+      img {
+        width: 60%;
+      }
+    }
+  }
+
+  .content {
+    background-color: #f6f6f6;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: #ff6060;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+}

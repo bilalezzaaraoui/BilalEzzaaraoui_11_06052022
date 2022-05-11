@@ -1,0 +1,147 @@
+.card-layout {
+  width: 85%;
+  margin: 2.5rem auto 2.5rem;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+@media screen and (max-width: 920px) {
+  // Card
+  .card-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  // Banner
+  .overlay {
+    .overlay-title {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  // Card
+  .card-layout {
+    grid-template-columns: repeat(2, 1fr);
+
+    .card-details {
+      p {
+        padding: 0 0 2rem 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  // Header
+  .header .nav {
+    ul {
+      li {
+        a {
+          font-size: 1rem !important;
+        }
+      }
+    }
+  }
+
+  // Banner
+  .overlay {
+    .overlay-title {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  // Card
+  .card-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  // Header
+  .header {
+    width: 90% !important;
+
+    .logo {
+      width: 40%;
+    }
+    .nav {
+      ul {
+        padding: 0 !important;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  // Banner
+  .banner-title {
+    width: 90%;
+    height: 141px;
+
+    .overlay-title {
+      padding: 0 9rem 0 1rem;
+    }
+  }
+
+  .card-layout {
+    width: 90%;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+
+    p {
+      padding: 0 7rem 2rem 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  // Header
+  .header {
+    .logo {
+      width: 30% !important;
+    }
+  }
+  // Banner
+  .banner-title {
+    .overlay {
+      &-title {
+        padding: 0 8rem 0 1rem !important;
+
+        h1 {
+          font-size: 1.2rem !important;
+        }
+      }
+    }
+  }
+  // Card
+  .card-layout {
+    display: block;
+
+    .card-details {
+      height: 255px;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  // Banner
+  .banner-title {
+    .overlay {
+      &-title {
+        padding: 0 6rem 0 1rem !important;
+      }
+    }
+  }
+}

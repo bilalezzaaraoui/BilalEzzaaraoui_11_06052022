@@ -1,0 +1,18 @@
+.slider {
+  width: 85%;
+  height: 415px;
+  margin: auto;
+  margin-bottom: 2rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+}

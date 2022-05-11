@@ -1,0 +1,15 @@
+.card-details {
+  height: 340px;
+  border-radius: 10px;
+  background-size: cover !important;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+
+  p {
+    padding: 0 0 2rem 2rem;
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+}
