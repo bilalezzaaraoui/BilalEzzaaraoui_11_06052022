@@ -12,7 +12,7 @@ const RouterKasa = () => {
       <Route path="/details/:id" element={<CardDetail />} />
       <Route path="/about" element={<About />} />
       <Route path="/error" element={<NoteFound />} />
-      <Route path="/*" element={<Navigate to="/error" />} />
+      <Route path="/*" element={<Navigate to="/error" replace />} />
     </Routes>
   );
 };

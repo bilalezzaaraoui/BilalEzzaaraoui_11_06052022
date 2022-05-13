@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Fragment, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import Slider from "../components/ui/slider/Slider";
 import Tags from "../components/ui/tags/Tags";
 import CollapseDetails from "../components/ui/collapseDetails/CollapseDetails";
@@ -16,9 +16,12 @@ const CardDetails = (props) => {
 
   const params = useParams();
   const { id } = params;
-  console.log(id, typeof id);
 
   const arrObj = dataJson.find((item) => item.id === id);
+
+  if (!arrObj) {
+    return <Navigate to="/error" />;
+  }
 
   return (
     <Fragment>
