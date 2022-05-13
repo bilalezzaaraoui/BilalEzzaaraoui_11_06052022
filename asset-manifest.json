@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b565713.css",
-    "main.js": "/static/js/main.d5c4ccc9.js",
-    "static/media/backgroundAbout.png": "/static/media/backgroundAbout.ed819f2cc2faefb4fba2.png",
-    "static/media/background.png": "/static/media/background.40371f11171ba050e175.png",
-    "static/media/LOGO.svg": "/static/media/LOGO.a6101328193bb3191cbcb50c120ec0d1.svg",
-    "index.html": "/index.html",
-    "main.5b565713.css.map": "/static/css/main.5b565713.css.map",
-    "main.d5c4ccc9.js.map": "/static/js/main.d5c4ccc9.js.map"
+    "main.css": "/BilalEzzaaraoui_11_06052022/static/css/main.5b565713.css",
+    "main.js": "/BilalEzzaaraoui_11_06052022/static/js/main.9cb7a150.js",
+    "static/media/backgroundAbout.png": "/BilalEzzaaraoui_11_06052022/static/media/backgroundAbout.ed819f2cc2faefb4fba2.png",
+    "static/media/background.png": "/BilalEzzaaraoui_11_06052022/static/media/background.40371f11171ba050e175.png",
+    "static/media/LOGO.svg": "/BilalEzzaaraoui_11_06052022/static/media/LOGO.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "index.html": "/BilalEzzaaraoui_11_06052022/index.html",
+    "main.5b565713.css.map": "/BilalEzzaaraoui_11_06052022/static/css/main.5b565713.css.map",
+    "main.9cb7a150.js.map": "/BilalEzzaaraoui_11_06052022/static/js/main.9cb7a150.js.map"
   },
   "entrypoints": [
     "static/css/main.5b565713.css",
-    "static/js/main.d5c4ccc9.js"
+    "static/js/main.9cb7a150.js"
   ]
 }
