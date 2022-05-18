@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import ChevronRight from "../../../assets/img/chevronRight.png";
 import ChevronLeft from "../../../assets/img/chevronLeft.png";
 import "./Slider.scss";
@@ -7,10 +7,13 @@ const Slider = (props) => {
   const [arrow, setArrow] = useState(true);
   const [marker, setMarker] = useState(0);
   const imagesArr = props.images;
+  console.log(imagesArr.length);
 
-  if (imagesArr.length === 1) {
-    setArrow(false);
-  }
+  useEffect(() => {
+    if (imagesArr.length === 1) {
+      setArrow(false);
+    }
+  }, [imagesArr]);
 
   const handleLeftClick = () => {
     // Suivant
